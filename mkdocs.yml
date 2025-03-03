@@ -1,0 +1,16 @@
+site_name: ODDS
+nav:
+  - ODDS+FROG: index.md
+  - ODDS: odds.md
+  - FROG: frog.md
+  - Energy requirements: energy.md
+
+theme:
+  name: material
+use_directory_urls: false
+plugins:
+  - search
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+markdown_extensions:
+  - mdx_math
